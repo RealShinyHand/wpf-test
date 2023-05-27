@@ -15,7 +15,14 @@
 	<p>nuget package 다운로드 : EntityFrameworkCore(7.0.5), EntityFrameWorkCore.SqlServer(7.0.5),EntityFrameworkCore(7.0.5)</p>
 	<p>add-migration  명령어 작업 중, EntityFrameworkCore.Design 설치 요구가 발생</p>
 	<p>PC에 MSSQL 설치 SA 계정을 사용할 계획</p>
-	<p>add-migration => update-database ,, 에러 발생 connection String 수정 : TrustServerCertificate=True 추가</p>
+	<p>에러 발생 connection String 수정 : TrustServerCertificate=True 추가
+		<code>
+		add-migration [사용자 지정 이름] 
+		update-database [사용자 지정 이름으로 쓴거]
+		</code>
+                 add-migration을 통해 db 셋팅할 코드들이 완성되고 update-database를 통해 db에 실제로 적용시킴
+	</p>
+	
 </div>
 
 <h3>
