@@ -7,9 +7,15 @@
 <ul>
 <li>도메인 클래스 생성</li>
 <li>서비스 인터페이스 생성</li>
+<li>엔티티 프레임 워크 설정,패키지 설치및 DbContext 설정</li>
+
 </ul>
+<h4>간략 내역</h4>
 <div>
-	<p>DTO가 아니고 도메인 클래스 생성하는 것을 보아 ORM 쓸것으로 예상됨</p>
+	<p>nuget package 다운로드 : EntityFrameworkCore(7.0.5), EntityFrameWorkCore.SqlServer(7.0.5),EntityFrameworkCore(7.0.5)</p>
+	<p>add-migration  명령어 작업 중, EntityFrameworkCore.Design 설치 요구가 발생</p>
+	<p>PC에 MSSQL 설치 SA 계정을 사용할 계획</p>
+	<p>add-migration => update-database ,, 에러 발생 connection String 수정 : TrustServerCertificate=True 추가</p>
 </div>
 
 <h3>
